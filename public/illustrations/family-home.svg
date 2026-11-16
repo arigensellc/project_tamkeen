@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+<defs>
+<radialGradient id="sun" cx="0.08" cy="1.02" r="1.15"><stop offset="0" stop-color="#E65416"/><stop offset=".28" stop-color="#EC8656"/><stop offset=".6" stop-color="#E4C6B0"/><stop offset="1" stop-color="#D8D6C9"/></radialGradient>
+<radialGradient id="dusk" cx="0.05" cy="1.05" r="1.05"><stop offset="0" stop-color="#E65416" stop-opacity=".85"/><stop offset=".35" stop-color="#E65416" stop-opacity=".28"/><stop offset=".75" stop-color="#3B3D42" stop-opacity="0"/></radialGradient>
+<pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#303236" opacity=".09"/></pattern>
+</defs>
+<rect width="600" height="760" fill="#ECE9DF"/>
+<rect y="700" width="600" height="60" fill="#D8D6C9"/>
+<path d="M110 700V370L300 205L490 370V700" stroke="#303236" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="284" cy="150" r="13" fill="#E65416"/><circle cx="316" cy="150" r="13" fill="#E65416"/>
+<path d="M142.6 700V584.7A52.4 52.4 0 0 1 247.4 584.7V700Z" fill="#303236"/><circle cx="195" cy="487.8" r="32.8" fill="#303236"/>
+<path d="M250.8 700V596.2A47.2 47.2 0 0 1 345.2 596.2V700Z" fill="#52555A"/><circle cx="298" cy="508.8" r="29.5" fill="#52555A"/>
+<path d="M350 700V634A30 30 0 0 1 410 634V700Z" fill="#E65416"/><circle cx="380" cy="578.5" r="18.8" fill="#E65416"/>
+<path d="M414.4 700V652.5A21.6 21.6 0 0 1 457.6 652.5V700Z" fill="#F1A27F"/><circle cx="436" cy="612.5" r="13.5" fill="#F1A27F"/>
+<rect width="600" height="760" fill="url(#grain)"/>
+</svg>

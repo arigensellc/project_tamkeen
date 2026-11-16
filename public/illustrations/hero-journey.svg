@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" fill="none">
+<defs>
+<radialGradient id="sun" cx="0.08" cy="1.02" r="1.15"><stop offset="0" stop-color="#E65416"/><stop offset=".28" stop-color="#EC8656"/><stop offset=".6" stop-color="#E4C6B0"/><stop offset="1" stop-color="#D8D6C9"/></radialGradient>
+<radialGradient id="dusk" cx="0.05" cy="1.05" r="1.05"><stop offset="0" stop-color="#E65416" stop-opacity=".85"/><stop offset=".35" stop-color="#E65416" stop-opacity=".28"/><stop offset=".75" stop-color="#3B3D42" stop-opacity="0"/></radialGradient>
+<pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#303236" opacity=".09"/></pattern>
+</defs>
+<rect width="800" height="860" fill="url(#sun)"/>
+<circle cx="585" cy="230" r="150" fill="#F5F5F5" opacity=".42"/>
+<circle cx="585" cy="230" r="196" stroke="#F5F5F5" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 14"/>
+<path d="M0 760H190V640H370V520H550V400H800V860H0Z" fill="#F5F5F5"/>
+<path d="M0 760H190V640H370V520H550V400H800" stroke="#303236" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.4 760V708.1A23.6 23.6 0 0 1 118.6 708.1V760Z" stroke="#303236" stroke-width="6" stroke-linejoin="round" opacity=".38"/><circle cx="95" cy="664.4" r="14.8" stroke="#303236" stroke-width="6" opacity=".38"/>
+<path d="M253.6 640V581.9A26.4 26.4 0 0 1 306.4 581.9V640Z" stroke="#303236" stroke-width="6" stroke-linejoin="round" opacity=".38"/><circle cx="280" cy="533.1" r="16.5" stroke="#303236" stroke-width="6" opacity=".38"/>
+<path d="M430.8 520V455.8A29.2 29.2 0 0 1 489.2 455.8V520Z" stroke="#303236" stroke-width="6" stroke-linejoin="round" opacity=".38"/><circle cx="460" cy="401.7" r="18.2" stroke="#303236" stroke-width="6" opacity=".38"/>
+<path d="M572.6 400V284.7A52.4 52.4 0 0 1 677.4 284.7V400Z" fill="#303236"/><circle cx="625" cy="187.8" r="32.8" fill="#303236"/>
+<path d="M690.4 400V330.5A31.6 31.6 0 0 1 753.6 330.5V400Z" fill="#E65416"/><circle cx="722" cy="272" r="19.8" fill="#E65416"/>
+<circle cx="190" cy="640" r="13" fill="#E65416"/>
+<circle cx="370" cy="520" r="13" fill="#E65416"/>
+<circle cx="550" cy="400" r="13" fill="#E65416"/>
+<rect width="800" height="860" fill="url(#grain)"/>
+</svg>

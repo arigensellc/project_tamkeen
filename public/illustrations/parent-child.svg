@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+<defs>
+<radialGradient id="sun" cx="0.08" cy="1.02" r="1.15"><stop offset="0" stop-color="#E65416"/><stop offset=".28" stop-color="#EC8656"/><stop offset=".6" stop-color="#E4C6B0"/><stop offset="1" stop-color="#D8D6C9"/></radialGradient>
+<radialGradient id="dusk" cx="0.05" cy="1.05" r="1.05"><stop offset="0" stop-color="#E65416" stop-opacity=".85"/><stop offset=".35" stop-color="#E65416" stop-opacity=".28"/><stop offset=".75" stop-color="#3B3D42" stop-opacity="0"/></radialGradient>
+<pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#303236" opacity=".09"/></pattern>
+</defs>
+<rect width="600" height="760" fill="url(#sun)"/>
+<path d="M0 560H140V500H300V440H460V380H600" stroke="#F5F5F5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+<circle cx="470" cy="190" r="70" fill="#F5F5F5" opacity=".5"/>
+<rect y="690" width="600" height="70" fill="#303236"/>
+<path d="M174 690V522.8A76 76 0 0 1 326 522.8V690Z" fill="#303236"/><circle cx="250" cy="382.2" r="47.5" fill="#303236"/>
+<path d="M360.8 690V603.8A39.2 39.2 0 0 1 439.2 603.8V690Z" fill="#F5F5F5"/><circle cx="400" cy="531.2" r="24.5" fill="#F5F5F5"/>
+<path d="M326 560c22 24 38 26 54 14" stroke="#303236" stroke-width="16" stroke-linecap="round"/>
+<rect width="600" height="760" fill="url(#grain)"/>
+</svg>
