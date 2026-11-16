@@ -4,10 +4,10 @@ import Script from 'next/script';
 import { useEffect, useRef, useState } from 'react';
 
 const programs = [
-  { category: 'RELIEF', title: 'Winter kits', description: 'A warm blanket and a pair of shoes for one person, delivered before the cold sets in.', amount: '', image: '/images/provided-parent.webp', alt: 'A young parent carrying a toddler', cta: 'Give a winter kit' },
-  { category: 'RELIEF', title: 'Monthly groceries', description: 'Flour, rice, lentils, oil and other essentials while the family works on their plan.', amount: '', image: '/images/provided-mission.webp', alt: 'Two young children sitting together', cta: 'Sponsor groceries' },
-  { category: 'LIVELIHOOD', title: 'Skills training', description: 'A course in a trade people in the area will pay for, with a mentor afterwards.', amount: '', image: '/images/provided-family.webp', alt: 'A group of children standing close together', cta: 'Fund a trainee' },
-  { category: 'LIVELIHOOD', title: 'A livelihood start', description: 'The tools or stock a family needs to start earning. Our most lasting gift.', amount: '', image: '/images/provided-program-clean.webp', alt: 'Children from the community', cta: 'Fund a livelihood' },
+  { category: 'RELIEF', title: 'Winter kits', description: 'A warm blanket and a pair of shoes for one person, delivered before the cold sets in.', amount: '', image: '/images/pakistani-children.jpg', alt: 'Children sitting together in warm clothes', cta: 'Give a winter kit' },
+  { category: 'RELIEF', title: 'Monthly groceries', description: 'Flour, rice, lentils, oil and other essentials while the family works on their plan.', amount: '', image: '/images/pakistani-family.jpg', alt: 'A family sitting together outside their home', cta: 'Sponsor groceries' },
+  { category: 'LIVELIHOOD', title: 'Skills training', description: 'A course in a trade people in the area will pay for, with a mentor afterwards.', amount: '', image: '/images/pakistani-craftsman.jpg', alt: 'An older craftsman carrying a large wrench', cta: 'Fund a trainee' },
+  { category: 'LIVELIHOOD', title: 'A livelihood start', description: 'The tools or stock a family needs to start earning. Our most lasting gift.', amount: '', image: '/images/pakistani-child-worker.jpg', alt: 'A child carrying a large sack', cta: 'Fund a livelihood' },
 ];
 
 const steps = [
@@ -171,7 +171,7 @@ export default function TamkeenHome() {
           <h1 id="hero-title">From relief<br /><span>to self-reliance</span></h1>
         </div>
         <figure className="hero-photo photo-wrap">
-          <img src="/images/provided-hero.webp" alt="A smiling child looking up" fetchPriority="high" />
+          <img src="/images/pakistani-aid-recipients.jpg" alt="Children gathered after receiving food aid" fetchPriority="high" />
 
           <div className="hero-stat"><b>4</b><span>steps toward<br />independence</span></div>
           <div className="photo-pills"><span>Relief</span><span>Livelihoods</span></div>
@@ -185,7 +185,7 @@ export default function TamkeenHome() {
           <TamkeenMark light />
           <h2>Help today.<br />Independence tomorrow.</h2>
           <p>Tamkeen means empowerment. Every family deserves the tools to stand on its own.</p>
-          <figure className="aside-photo photo-wrap"><img src="/images/provided-community.webp" alt="Several children smiling together" loading="lazy" /></figure>
+          <figure className="aside-photo photo-wrap"><img src="/images/pakistani-girl.jpg" alt="A young girl wearing a red headscarf" loading="lazy" /></figure>
         </aside>
       </section>
     </div>
@@ -193,7 +193,7 @@ export default function TamkeenHome() {
     <section className="about-section light-section reveal" id="about" aria-labelledby="about-title">
       <div className="section-heading centered"><span className="eyebrow"><i /> About Tamkeen</span><h2 id="about-title">Building families<br />that stand on their own</h2></div>
       <div className="about-grid">
-        <figure className="about-photo photo-wrap"><img src="/images/provided-family.webp" alt="A group of children standing close together" loading="lazy" /></figure>
+        <figure className="about-photo photo-wrap"><img src="/images/pakistani-family.jpg" alt="A family sitting together outside their home" loading="lazy" /></figure>
         <div className="about-story">
           <TamkeenMark />
           <p className="about-lede">A food parcel feeds a family for a week. Tamkeen starts with what a family needs right now and stays until they can stand on their own.</p>
@@ -202,7 +202,7 @@ export default function TamkeenHome() {
           <a className="text-link" href="#approach">See how we work <Arrow diagonal /></a>
           <div className="mini-stats"><div><b>4</b><span>steps to independence</span></div><div><b>1</b><span>plan for each family</span></div><div><b>0%</b><span>interest on loans</span></div><div><b>2</b><span>volunteers per visit</span></div></div>
         </div>
-        <figure className="about-photo about-photo-tall photo-wrap"><img src="/images/provided-parent.webp" alt="A young parent carrying a toddler" loading="lazy" /></figure>
+        <figure className="about-photo about-photo-tall photo-wrap"><img src="/images/pakistani-craftsman.jpg" alt="An older craftsman carrying a large wrench" loading="lazy" /></figure>
       </div>
       <div className="trust-strip"><span>Care today</span><i /><span>Skills for tomorrow</span><i /><span>Dignity always</span><i /><span>Qarz-e-Hasna</span></div>
     </section>
@@ -218,7 +218,7 @@ export default function TamkeenHome() {
             ['Interest-free loans', 'Qarz-e-Hasna repaid in small instalments to support another family.'],
           ].map(([title, description], index) => <article className="mission-item reveal" key={title}><span className="mission-number">0{index + 1}</span><div><h3>{title}</h3><p>{description}</p></div><span className="mission-plus">+</span></article>)}
         </div>
-        <figure className="mission-photo photo-wrap"><img src="/images/provided-mission.webp" alt="Two young children sitting together" loading="lazy" /><div className="mission-caption"><span className="eyebrow eyebrow-light"><i /> The Tamkeen promise</span><p>Support that sees the whole person, and their future.</p></div></figure>
+        <figure className="mission-photo photo-wrap"><img src="/images/pakistani-child.jpg" alt="A young child standing beside a wall" loading="lazy" /><div className="mission-caption"><span className="eyebrow eyebrow-light"><i /> The Tamkeen promise</span><p>Support that sees the whole person, and their future.</p></div></figure>
       </div>
     </section>
 
