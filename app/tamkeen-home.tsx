@@ -24,7 +24,7 @@ const STAIR_DOTS = [[69, 236], [179, 176], [289, 116], [405, 56]];
 const TALLY_FORM = 'https://tally.so/r/9N9ODX';
 const TALLY_EMBED = 'https://tally.so/embed/9N9ODX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1';
 
-const BANK = { title: 'ABDULLAH', bank: 'Meezan Bank', branch: 'Satellite Town, Gujranwala', account: '09030111593645', iban: 'PK71MEZN0009030111593645' };
+const BANK = { title: 'ABDULLAH', bank: 'Meezan Bank', account: '09030111593645', iban: 'PK71MEZN0009030111593645' };
 
 function CopyValue({ value, label, display }: { value: string; label: string; display?: string }) {
   const [copied, setCopied] = useState(false);
@@ -54,7 +54,7 @@ function Arrow({ diagonal = false }: { diagonal?: boolean }) {
 
 function TamkeenMark({ light = false }: { light?: boolean }) {
   const dark = light ? '#F5F5F5' : '#303236';
-  return <svg aria-hidden="true" viewBox="64 0 312 176" className="h-10 w-[70px] shrink-0"><g fill="none" stroke={dark} strokeWidth="18" strokeLinecap="round" strokeLinejoin="round"><path d="M340 88v32H150"/><circle cx="290" cy="103" r="17"/><path d="M244 120V42l46-22M199 120V98M150 120c0 42-68 42-68-12"/></g><g fill="#E65416"><circle cx="327" cy="56" r="11.5"/><circle cx="353" cy="56" r="11.5"/><circle cx="116" cy="88" r="11.5"/></g><g fill={dark}><circle cx="187" cy="156" r="10"/><circle cx="211" cy="156" r="10"/></g></svg>;
+  return <svg aria-hidden="true" viewBox="64 0 312 176" className="h-10 w-[70px] shrink-0"><g fill="none" stroke={dark} strokeWidth="18" strokeLinecap="round" strokeLinejoin="round"><path d="M340 88v32H150" /><circle cx="290" cy="103" r="17" /><path d="M244 120V42l46-22M199 120V98M150 120c0 42-68 42-68-12" /></g><g fill="#E65416"><circle cx="327" cy="56" r="11.5" /><circle cx="353" cy="56" r="11.5" /><circle cx="116" cy="88" r="11.5" /></g><g fill={dark}><circle cx="187" cy="156" r="10" /><circle cx="211" cy="156" r="10" /></g></svg>;
 }
 
 export default function TamkeenHome() {
@@ -172,7 +172,7 @@ export default function TamkeenHome() {
         </div>
         <figure className="hero-photo photo-wrap">
           <img src="/images/provided-hero.webp" alt="A smiling child looking up" fetchPriority="high" />
-          
+
           <div className="hero-stat"><b>4</b><span>steps toward<br />independence</span></div>
           <div className="photo-pills"><span>Relief</span><span>Livelihoods</span></div>
         </figure>
